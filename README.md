@@ -16,7 +16,7 @@ This project uses **only the Python standard library**.
 Check your version:
 
 ```bash
-python --version
+python --version ```
 System
 Steam client installed
 
