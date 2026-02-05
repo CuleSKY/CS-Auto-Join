@@ -9,9 +9,7 @@ import sys
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-# =============================
 # A2S_INFO (Valve Source Query)
-# =============================
 A2S_INFO_REQUEST = b"\xFF\xFF\xFF\xFF" + b"TSource Engine Query\x00"
 
 
