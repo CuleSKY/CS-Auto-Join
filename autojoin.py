@@ -349,7 +349,7 @@ class JoinSniperApp:
 
                         open_steam_connect(app_id, ip, port)
 
-                        # 立刻停止：因为无法判断是否进服成功（按你的要求）
+                        # 立刻停止：因为无法判断是否进服成功
                         self.running = False
                         self.root.after(0, self.on_stop)
                         break
