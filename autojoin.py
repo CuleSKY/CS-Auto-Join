@@ -82,9 +82,7 @@ def a2s_info(ip: str, port: int, timeout: float = 1.0) -> dict:
         sock.close()
 
 
-# =============================
 # Input parsing
-# =============================
 CONNECT_RE = re.compile(
     r"^\s*(?:connect\s+)?(\d{1,3}(?:\.\d{1,3}){3})\s*:\s*(\d{1,5})\s*$",
     re.IGNORECASE
