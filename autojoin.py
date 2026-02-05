@@ -119,9 +119,7 @@ def parse_input(text: str) -> tuple[str, int]:
     return ip, port
 
 
-# =============================
 # Steam launcher
-# =============================
 def open_steam_connect(app_id: int, ip: str, port: int) -> None:
     # Space must be URL-encoded as %20
     uri = f"steam://rungameid/{app_id}//+connect%20{ip}:{port}"
@@ -134,9 +132,7 @@ def open_steam_connect(app_id: int, ip: str, port: int) -> None:
         os.system(f'xdg-open "{uri}" >/dev/null 2>&1 &')
 
 
-# =============================
 # GUI App
-# =============================
 class JoinSniperApp:
     def __init__(self, root: tk.Tk):
         self.root = root
